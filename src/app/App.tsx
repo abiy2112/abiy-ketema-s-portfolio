@@ -115,6 +115,35 @@ export default function App() {
           <p className="text-xl md:text-2xl text-red-500 font-medium tracking-wide">
             Video Editor & Creative Storyteller
           </p>
+    <div className="min-h-screen bg-zinc-950">
+      {/* Hero Section */}
+      <header className="relative h-screen flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.unsplash.com/photo-1757845366142-e5929f71c7bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2aWRlbyUyMGVkaXRpbmclMjB3b3Jrc3BhY2UlMjBmaWxtfGVufDF8fHx8MTc3MDA0MTM2Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            alt="Video editing workspace"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/80 via-zinc-950/60 to-zinc-950"></div>
+        </div>
+        
+        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+          <h1 className="text-6xl md:text-8xl mb-4 text-white tracking-tight">Abiy Ketema</h1>
+          <p className="text-2xl md:text-3xl text-zinc-300 mb-8">Video Editor & Creative Storyteller</p>
+          <div className="flex flex-wrap justify-center gap-6 text-zinc-400">
+            <a href="mailto:abiyketema21@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
+              <Mail className="w-5 h-5" />
+              <span>abiyketema21@gmail</span>
+            </a>
+            <a href="tel:+251934681880" className="flex items-center gap-2 hover:text-white transition-colors">
+              <Phone className="w-5 h-5" />
+              <span>+251-934681880</span>
+            </a>
+            <a href = "https://www.google.com/maps/search/Ethiopia%2C+Addis+Ababa%2C+0000%2C+Ethiopia" className="flex items-center gap-2 hover:text-white transition-colors">
+              <MapPin className="w-5 h-5" />
+              <span>Addis Ababa, Ethiopia</span>
+            </a>
+          </div>
         </div>
       </header>
 
