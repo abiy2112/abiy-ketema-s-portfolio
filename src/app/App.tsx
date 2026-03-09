@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import imageme from "../img/me.jpg";
 import imagechan from "../img/channels4_profile.jpg";
+
 export default function App() {
   const skills = [
     {
@@ -104,18 +105,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-300 font-sans">
-      {/* Hero */}
-      <header className="relative h-[60vh] flex items-center justify-center">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1757845366142-e5929f71c7bb?q=80&w=2000')] bg-cover bg-center opacity-30" />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-zinc-950" />
-        <div className="relative z-10 text-center px-4">
-          <h1 className="text-6xl md:text-8xl font-bold text-white mb-4 tracking-tighter">
-            Abiy Ketema
-          </h1>
-          <p className="text-xl md:text-2xl text-red-500 font-medium tracking-wide">
-            Video Editor & Creative Storyteller
-          </p>
-    <div className="min-h-screen bg-zinc-950">
       {/* Hero Section */}
       <header className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -126,20 +115,33 @@ export default function App() {
           />
           <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/80 via-zinc-950/60 to-zinc-950"></div>
         </div>
-        
+
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          <h1 className="text-6xl md:text-8xl mb-4 text-white tracking-tight">Abiy Ketema</h1>
-          <p className="text-2xl md:text-3xl text-zinc-300 mb-8">Video Editor & Creative Storyteller</p>
+          <h1 className="text-6xl md:text-8xl mb-4 text-white tracking-tight">
+            Abiy Ketema
+          </h1>
+          <p className="text-2xl md:text-3xl text-zinc-300 mb-8">
+            Video Editor & Creative Storyteller
+          </p>
           <div className="flex flex-wrap justify-center gap-6 text-zinc-400">
-            <a href="mailto:abiyketema21@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
+            <a
+              href="mailto:abiyketema21@gmail.com"
+              className="flex items-center gap-2 hover:text-white transition-colors"
+            >
               <Mail className="w-5 h-5" />
               <span>abiyketema21@gmail</span>
             </a>
-            <a href="tel:+251934681880" className="flex items-center gap-2 hover:text-white transition-colors">
+            <a
+              href="tel:+251934681880"
+              className="flex items-center gap-2 hover:text-white transition-colors"
+            >
               <Phone className="w-5 h-5" />
               <span>+251-934681880</span>
             </a>
-            <a href = "https://www.google.com/maps/search/Ethiopia%2C+Addis+Ababa%2C+0000%2C+Ethiopia" className="flex items-center gap-2 hover:text-white transition-colors">
+            <a
+              href="https://www.google.com/maps/search/Ethiopia%2C+Addis+Ababa%2C+0000%2C+Ethiopia"
+              className="flex items-center gap-2 hover:text-white transition-colors"
+            >
               <MapPin className="w-5 h-5" />
               <span>Addis Ababa, Ethiopia</span>
             </a>
@@ -354,3 +356,4 @@ export default function App() {
       </footer>
     </div>
   );
+}
