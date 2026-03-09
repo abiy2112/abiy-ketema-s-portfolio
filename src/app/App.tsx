@@ -15,6 +15,7 @@ import {
   Pause,
 } from "lucide-react";
 import imageme from "../img/me.jpg";
+import imagechan from "../img/channels4_profile.jpg";
 export default function App() {
   const skills = [
     {
@@ -45,8 +46,7 @@ export default function App() {
         "Created visually appealing content to engage audience.",
       ],
       // Using your provided user profile picture
-      thumbnail:
-        "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=600",
+      thumbnail: imagechan,
       videoUrl: "https://youtube.com/@musikana1",
     },
     {
