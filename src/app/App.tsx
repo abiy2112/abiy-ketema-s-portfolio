@@ -14,7 +14,7 @@ import {
   Send,
   Pause,
 } from "lucide-react";
-
+import imageme from "../img/me.jpg";
 export default function App() {
   const skills = [
     {
@@ -313,7 +313,7 @@ export default function App() {
           {/* Circular Profile Image (Bitmoji) */}
           <div className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-red-600/30 overflow-hidden shadow-2xl mb-12 hover:scale-105 transition-transform">
             <img
-              src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=600" // Replace with your profile image URL if different
+              src={imageme} // Replace with your profile image URL if different
               alt="Abiy Ketema Logo"
               className="w-full h-full object-cover"
             />
